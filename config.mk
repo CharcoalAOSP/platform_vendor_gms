@@ -64,6 +64,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural;com.google.android.systemui.gxoverlay
 
+# Enable support of one-handed mode
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.support_one_handed_mode=true
+
 # Enable background blur for widget picker
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.launcher.depth.widget=true
