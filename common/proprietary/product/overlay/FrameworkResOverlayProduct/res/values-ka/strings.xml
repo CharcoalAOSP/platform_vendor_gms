@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>გაამოძრავეთ თითი. ცადეთ ხელახლა.</item>
+        <item>ეს თითი უკვე რეგისტრირებულია, ცადეთ სხვა თითით.</item>
+        <item>სურათის ხარისხი დაბალია. ცადეთ ხელახლა.</item>
+        <item/>
+        <item>სურათის ხარისხი დაბალია. ცადეთ ხელახლა.</item>
+        <item/>
+        <item/>
+        <item>აღმოჩენილია ლაქა, გაწმინდეთ ეკრანი. ცადეთ ხელახლა.</item>
+        <item>სურათის წაკითხვა ვერ მოხერხდა. ცადეთ ხელახლა.</item>
+        <item/>
+    </string-array>
+
+    <!-- Generic error message shown when fingerprint needs calibration [CHAR LIMIT=150] -->
+    <string name="fingerprint_error_bad_calibration">თითის ანაბეჭდის სენსორის გამოყენება ვერ მოხერხდა. ეწვიეთ შეკეთების სერვისის პროვაიდერს ან ბმულს g.co/pixel/fingerprintunlock</string>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>მონაცემები არასწორია. ცადეთ ხელახლა.</item>
+        <item>თითის რეგისტრირება ვერ მოხერხდა. ცადეთ ხელახლა.</item>
+    </string-array>
+
+    <!-- Notification content shown when the system requires the user to re-calibrate their fingerprint. [CHAR LIMIT=NONE] -->
+    <string name="fingerprint_recalibrate_notification_content">ეწვიეთ შეკეთების სერვისის პროვაიდერს ან ბმულს g.co/pixel/fingerprintunlock</string>
+
+    <!-- [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 5444908404021316250] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">ბატარეის მუშაობის გასახანგრძლივებლად ბატარეის დამზოგი:\n\n• ჩართავს მუქ თემას\n• გამორთავს ან შეზღუდავს ფონურ აქტივობას, ზოგიერთ ვიზუალურ ეფექტს და სხვა ფუნქციებს, მაგალითად, „Hey Google“\n• მოახდენს ქსელთან კავშირების ოპტიმიზაციას\n\n<annotation id="url">შეიტყვეთ მეტი</annotation></string>
+</resources>

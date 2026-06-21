@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ጣትዎን ያንቀሳቅሱት። እንደገና ይሞክሩ።</item>
+        <item>ጣቱ አስቀድሞ የተመዘገበ ነው፣ የተለየ ጣት ይጠቀሙ።</item>
+        <item>ደካማ የምስል ጥራት። እንደገና ይሞክሩ።</item>
+        <item/>
+        <item>ደካማ የምስል ጥራት። እንደገና ይሞክሩ።</item>
+        <item/>
+        <item/>
+        <item>ጉድፍ ተገኝቷል፣ ማያ ገጽን ያጽዱ። እንደገና ይሞክሩ።</item>
+        <item>ምስልን ማንበብ አልተሳካም። እንደገና ይሞክሩ።</item>
+        <item/>
+    </string-array>
+
+    <!-- Generic error message shown when fingerprint needs calibration [CHAR LIMIT=150] -->
+    <string name="fingerprint_error_bad_calibration">የጣት አሻራ ዳሳሽን መጠቀም አልተቻለም። የጥገና አገልግሎት ሰጪን ወይም g.co/pixel/fingerprintunlockን ይጎብኙ</string>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>መጥፎ ውሂብ። እንደገና ይሞክሩ።</item>
+        <item>ጣትን መመዝገብ አልተሳካም። እንደገና ይሞክሩ።</item>
+    </string-array>
+
+    <!-- Notification content shown when the system requires the user to re-calibrate their fingerprint. [CHAR LIMIT=NONE] -->
+    <string name="fingerprint_recalibrate_notification_content">የጥገና አገልግሎት ሰጪን ወይም g.co/pixel/fingerprintunlockን ይጎብኙ</string>
+
+    <!-- [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 5444908404021316250] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">የባትሪ ዕድሜን ለማራዘም የባትሪ ኃይል ቆጣቢ፦\n\n• ጨለማ ገጽታን ያበራል\n• የበስተጀርባ እንቅስቃሴን፣ አንዳንድ ምስላዊ ተጽዕኖዎችን እና ሌሎች እንደ «Hey Google» ያሉ ባህሪያትን ያጠፋል ወይም ይገድባል\n• የአውታረ መረብ ግንኙነቶችዎን ያመቻቻል\n\n<annotation id="url">የበለጠ ለመረዳት</annotation></string>
+</resources>

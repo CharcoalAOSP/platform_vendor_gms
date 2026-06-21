@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Gerakkan jari anda. Cuba lagi.</item>
+        <item>Jari sudah didaftarkan, gunakan jari yang lain.</item>
+        <item>Kualiti imej rendah. Cuba lagi.</item>
+        <item/>
+        <item>Kualiti imej rendah. Cuba lagi.</item>
+        <item/>
+        <item/>
+        <item>Comot dikesan, bersihkan skrin. Cuba lagi.</item>
+        <item>Gagal membaca imej. Cuba lagi.</item>
+        <item/>
+    </string-array>
+
+    <!-- Generic error message shown when fingerprint needs calibration [CHAR LIMIT=150] -->
+    <string name="fingerprint_error_bad_calibration">Tidak dapat menggunakan penderia cap jari. Lawati penyedia pembaikan atau g.co/pixel/fingerprintunlock</string>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Data salah. Cuba lagi.</item>
+        <item>Gagal mendaftarkan jari. Cuba lagi.</item>
+    </string-array>
+
+    <!-- Notification content shown when the system requires the user to re-calibrate their fingerprint. [CHAR LIMIT=NONE] -->
+    <string name="fingerprint_recalibrate_notification_content">Lawati penyedia pembaikan atau g.co/pixel/fingerprintunlock</string>
+
+    <!-- [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 5444908404021316250] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">Untuk melanjutkan hayat bateri, Penjimat Bateri:\n\n• Menghidupkan Tema gelap\n• Mematikan atau mengehadkan aktiviti latar, sesetengah kesan visual dan ciri lain seperti “Ok Google”\n• Mengoptimumkan sambungan rangkaian anda\n\n<annotation id="url">Ketahui lebih lanjut</annotation></string>
+</resources>

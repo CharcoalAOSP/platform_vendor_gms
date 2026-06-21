@@ -1,0 +1,3 @@
+[lfs]
+    url = https://gitlab.com/charcoalAOSP/lfs-blobs.git/info/lfs
+    pushurl = git@gitlab.com:charcoalAOSP/lfs-blobs.git

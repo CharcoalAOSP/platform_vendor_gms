@@ -1,0 +1,19 @@
+android_app {
+    name: "GoogleExtServices",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "GooglePermissionController",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "GoogleSafetyCenterResources",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "PrebuiltGmsCoreVic",
+    sdk_version: "system_current",
+}

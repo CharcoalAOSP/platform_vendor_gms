@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Premaknite prst. Poskusite znova.</item>
+        <item>Prst je že prijavljen. Uporabite drug prst.</item>
+        <item>Slaba kakovost slike. Poskusite znova.</item>
+        <item/>
+        <item>Slaba kakovost slike. Poskusite znova.</item>
+        <item/>
+        <item/>
+        <item>Zaznan je madež. Očistite zaslon. Poskusite znova.</item>
+        <item>Slike ni bilo mogoče prebrati. Poskusite znova.</item>
+        <item/>
+    </string-array>
+
+    <!-- Generic error message shown when fingerprint needs calibration [CHAR LIMIT=150] -->
+    <string name="fingerprint_error_bad_calibration">Tipala prstnih odtisov ni mogoče uporabiti. Obiščite ponudnika popravil ali spletno stran g.co/pixel/fingerprintunlock.</string>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Neveljavni podatki. Poskusite znova.</item>
+        <item>Prijava prsta ni uspela. Poskusite znova.</item>
+    </string-array>
+
+    <!-- Notification content shown when the system requires the user to re-calibrate their fingerprint. [CHAR LIMIT=NONE] -->
+    <string name="fingerprint_recalibrate_notification_content">Obiščite ponudnika popravil ali spletno stran g.co/pixel/fingerprintunlock.</string>
+
+    <!-- [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 5444908404021316250] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">Funkcija varčevanja z energijo baterije podaljša čas delovanja baterije tako:\n\n• vklopi temno temo;\n• izklopi ali omeji dejavnost v ozadju, nekatere vizualne učinke in druge funkcije, kot je »Hey Google«;\n• optimizira omrežne povezave.\n\n<annotation id="url">Več o tem</annotation></string>
+</resources>

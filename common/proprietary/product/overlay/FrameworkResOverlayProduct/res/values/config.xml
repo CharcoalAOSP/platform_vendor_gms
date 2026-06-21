@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string-array name="config_nightDisplayColorTemperatureCoefficients">
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>-0.000000014365268757</item>
+        <item>0.000255092801250106</item>
+        <item>-0.064156942434907716</item>
+        <item>-0.000000000910931179</item>
+        <item>0.000207598323269139</item>
+        <item>-0.349361641294833436</item>
+    </string-array>
+
+    <string-array name="config_locationExtraPackageNames" translatable="false">
+        <item>com.google.android.gms.location.history</item>
+    </string-array>
+
+    <!-- Package name(s) containing location provider support. These packages will be auto-granted
+         several permissions by the system, and should be system packages. -->
+    <string-array name="config_locationProviderPackageNames" translatable="false">
+        <item>com.google.android.gms</item>
+        <item>com.android.location.fused</item>
+    </string-array>
+
+    <!-- For performance and storage reasons, limit the number of fingerprints per user -->
+    <integer name="config_fingerprintMaxTemplatesPerUser">4</integer>
+
+    <!-- The fixed keyboard vibration strength in [0,1], or -1 to indicate the strength not fixed
+         and should depend on the touch feedback intensity user setting -->
+    <item name="config_keyboardHapticFeedbackFixedAmplitude" format="float" type="dimen">0.62</item>
+
+    <!-- Indicating if keyboard vibration settings supported or not. -->
+    <bool name="config_keyboardVibrationSettingsSupported">true</bool>
+
+    <!-- Indicating if ringtone vibration settings supported or not. -->
+    <bool name="config_ringtoneVibrationSettingsSupported">true</bool>
+
+    <!-- Mapping for the ringtone vibration pattern name to metric ID for logging
+         ringtone vibration customization.
+     Example:
+     <string-array name="config_ringtoneVibrationPatternToMetricIdMapping" translatable="false">
+       <item>Classic_ringtone.xml,101</item>
+       <item>Bumps.xml,102</item>
+     </string-array> -->
+    <string-array name="config_ringtoneVibrationPatternToMetricIdMapping" translatable="false">
+        <item>Classic_ringtone.xml,101</item>
+        <item>Bumps.xml,102</item>
+        <item>Buzz.xml,103</item>
+        <item>Rhythm.xml,104</item>
+        <item>Swirl.xml,105</item>
+        <item>Drumbeat.xml,106</item>
+        <item>Swoop.xml,107</item>
+        <item>Snare.xml,108</item>
+        <item>Heartbeat.xml,110</item>
+        <item>Gears.xml,111</item>
+    </string-array>
+
+    <!-- Mapping for the notification vibration pattern name to metric ID for logging
+         notification vibration customization.
+     Example:
+     <string-array name="config_notificationVibrationPatternToMetricIdMapping" translatable="false">
+       <item>Classic_notification.xml,201</item>
+       <item>Taps.xml,202</item>
+     </string-array> -->
+    <string-array name="config_notificationVibrationPatternToMetricIdMapping" translatable="false">
+        <item>Classic_notification.xml,201</item>
+        <item>Taps.xml,202</item>
+        <item>Blip.xml,203</item>
+        <item>Rumble.xml,204</item>
+        <item>Waves.xml,205</item>
+        <item>Soft_rise.xml,206</item>
+        <item>Tremor.xml,207</item>
+        <item>Fireworks.xml,208</item>
+        <item>Rattlesnake.xml,209</item>
+        <item>Whir.xml,210</item>
+        <item>Rapid_fire.xml,211</item>
+    </string-array>
+
+    <!-- Wallpaper cropper package. Used as the default cropper if the active launcher doesn't
+         handle wallpaper cropping.
+    -->
+    <string name="config_wallpaperCropperPackage" translatable="false">com.google.android.apps.wallpaper</string>
+
+    <!-- Package name for the device provisioning package. -->
+    <string name="config_deviceProvisioningPackage">com.google.android.apps.work.oobconfig</string>
+
+    <!-- User restrictions set on the SYSTEM user when it is first created.
+         @deprecated Set the System's default-restrictions in config_user_types.xml, which
+         overwrites this value anyway, instead.  -->
+    <string-array name="config_defaultFirstUserRestrictions" translatable="false">
+        <item>no_oem_unlock</item>
+    </string-array>
+
+    <!-- When each intermediate UDFPS enroll stage ends, as a fraction of total progress. -->
+    <string-array name="config_udfps_enroll_stage_thresholds" translatable="false">
+        <item>0.065</item>
+        <item>0.48</item>
+        <item>0.584</item>
+        <item>0.792</item>
+    </string-array>
+
+    <!-- Component names of the services which will keep critical code path warm -->
+    <string-array name="config_keep_warming_services" translatable="false">
+        <item>com.google.android.GoogleCamera/com.google.android.apps.camera.prewarm.NoOpPrewarmService</item>
+    </string-array>
+</resources>

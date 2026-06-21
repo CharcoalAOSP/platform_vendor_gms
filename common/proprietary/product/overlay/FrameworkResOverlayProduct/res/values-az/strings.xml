@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Barmağınızı hərəkət etdirin. Yenə cəhd edin.</item>
+        <item>Bu barmaq artıq qeydiyyata alınıb, fərqli bir barmaq istifadə edin.</item>
+        <item>Aşağı keyfiyyətli şəkil. Yenə cəhd edin.</item>
+        <item/>
+        <item>Aşağı keyfiyyətli şəkil. Yenə cəhd edin.</item>
+        <item/>
+        <item/>
+        <item>Ləkə aşkarlandı, ekranı təmizləyin. Yenə cəhd edin.</item>
+        <item>Şəkli oxumaq alınmadı. Yenə cəhd edin.</item>
+        <item/>
+    </string-array>
+
+    <!-- Generic error message shown when fingerprint needs calibration [CHAR LIMIT=150] -->
+    <string name="fingerprint_error_bad_calibration">Barmaq izi sensorundan istifadə etmək mümkün deyil. Təmir provayderini və ya g.co/pixel/fingerprintunlock ünvanını ziyarət edin</string>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Data xətası. Yenə cəhd edin.</item>
+        <item>Barmaq qeydiyyata alınmadı. Yenə cəhd edin.</item>
+    </string-array>
+
+    <!-- Notification content shown when the system requires the user to re-calibrate their fingerprint. [CHAR LIMIT=NONE] -->
+    <string name="fingerprint_recalibrate_notification_content">Təmir provayderini və ya g.co/pixel/fingerprintunlock ünvanını ziyarət edin</string>
+
+    <!-- [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 5444908404021316250] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">Batareyanın ömrünü artırmaq üçün Enerjiyə Qənaət funksiyası:\n\n• Qaranlıq temanı aktiv edir\n• Arxa fondakı fəaliyyəti, bəzi vizual effektləri və “Hey Google” kimi digər funksiyaları deaktiv edir və ya məhdudlaşdırır\n• Şəbəkə bağlantılarınızı optimallaşdırır\n\n<annotation id="url">Ətraflı məlumat</annotation></string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>请移动手指，然后重试。</item>
+        <item>已注册过这根手指，请改用其他手指。</item>
+        <item>图片质量不佳，请重试。</item>
+        <item/>
+        <item>图片质量不佳，请重试。</item>
+        <item/>
+        <item/>
+        <item>检测到污迹，请清洁屏幕，然后重试。</item>
+        <item>未能读取图片，请重试。</item>
+        <item/>
+    </string-array>
+
+    <!-- Generic error message shown when fingerprint needs calibration [CHAR LIMIT=150] -->
+    <string name="fingerprint_error_bad_calibration">无法使用指纹传感器。请联系维修服务提供商或访问 g.co/pixel/fingerprintunlock</string>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>数据有问题，请重试。</item>
+        <item>未能注册手指，请重试。</item>
+    </string-array>
+
+    <!-- Notification content shown when the system requires the user to re-calibrate their fingerprint. [CHAR LIMIT=NONE] -->
+    <string name="fingerprint_recalibrate_notification_content">请联系维修服务提供商或访问 g.co/pixel/fingerprintunlock</string>
+
+    <!-- [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 5444908404021316250] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">为了延长电池续航时间，省电模式会执行以下操作：\n\n• 开启深色主题\n• 关闭或限制后台活动、部分视觉效果和其他功能，例如“Ok Google”\n• 优化网络连接\n\n<annotation id="url">了解详情</annotation></string>
+</resources>
