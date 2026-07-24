@@ -5,7 +5,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.google.android.documentsui.theme.pixel">
-    <overlay android:targetPackage="com.android.documentsui"
+    <overlay android:targetPackage="com.google.android.documentsui"
              android:targetName="DocumentsUICustomization"
              android:priority="0" />
 </manifest>

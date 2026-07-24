@@ -5,7 +5,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.google.android.pixel.avatarpicker">
-    <overlay android:targetPackage="com.android.avatarpicker"
+    <overlay android:targetPackage="com.google.android.avatarpicker"
              android:targetName="AvatarPickerGoogle"
              android:isStatic="true"
              android:priority="210" />
