@@ -211,6 +211,8 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/usr/srec/en-US/voice_match/MARBLE_voice_filter.tflite:$(TARGET_COPY_OUT_PRODUCT)/usr/srec/en-US/voice_match/MARBLE_voice_filter.tflite \
     vendor/gms/common/proprietary/system/etc/default-permissions/default-permissions_googleprintrecommendationservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/default-permissions_googleprintrecommendationservice.xml \
     vendor/gms/common/proprietary/system/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml \
+    vendor/gms/common/proprietary/system_ext/etc/default-permissions/default-permissions-com.google.android.apps.pixel.dcservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/default-permissions-com.google.android.apps.pixel.dcservice.xml \
+    vendor/gms/common/proprietary/system_ext/etc/permissions/com.google.android.apps.pixel.dcservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.android.apps.pixel.dcservice.xml \
     vendor/gms/common/proprietary/system_ext/etc/permissions/privapp-permissions-google-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se.xml \
     vendor/gms/common/proprietary/vendor/etc/res/images/charger/battery_fail.png:$(TARGET_COPY_OUT_VENDOR)/etc/res/images/charger/battery_fail.png \
     vendor/gms/common/proprietary/vendor/etc/res/images/charger/battery_scale.png:$(TARGET_COPY_OUT_VENDOR)/etc/res/images/charger/battery_scale.png \
@@ -305,6 +307,7 @@ PRODUCT_PACKAGES += \
     EmergencyInfoGoogleNoUi \
     Flipendo \
     AvatarPickerGoogle \
+    DeviceConnectivityServicePrebuilt_26.01.00 \
     GoogleServicesFramework \
     MagicPortraitWallpapers \
     NexusLauncherRelease \

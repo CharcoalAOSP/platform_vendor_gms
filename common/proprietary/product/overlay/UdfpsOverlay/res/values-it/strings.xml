@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Title shown for menu item that launches fingerprint settings or enrollment [CHAR LIMIT=22] -->
+    <string name="security_settings_fingerprint_preference_title">Sblocco con l\'Impronta</string>
+
+    <!-- Title shown for work menu item that launches fingerprint settings or enrollment [CHAR LIMIT=22] -->
+    <string name="security_settings_work_fingerprint_preference_title">Sblocco con l\'Impronta per il lavoro</string>
+
+    <!-- Introduction title shown in fingerprint enrollment to introduce the fingerprint feature [CHAR LIMIT=29] -->
+    <string name="security_settings_fingerprint_enroll_introduction_title">Configura lo Sblocco con l\'Impronta</string>
+
+    <!-- Text shown during fingerprint enrollment to indicate bad sensor calibration. [CHAR LIMIT=100] -->
+    <string name="security_settings_fingerprint_bad_calibration">Contatta un fornitore di servizi di riparazione oppure visita g.co/pixel/fingerprintunlock.</string>
+
+    <!-- Title for suggested actions for settings up a fingerprint lock [CHAR LIMIT=46] -->
+    <string name="suggested_fingerprint_lock_settings_title">Usa lo Sblocco con l\'Impronta</string>
+
+    <!-- Title for preference that guides the user to skip fingerprint setup [CHAR LIMIT=60]-->
+    <string name="fingerprint_unlock_skip_fingerprint">Continua senza Sblocco con l\'Impronta</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock of unknown type and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint">Le funzionalità di protezione del dispositivo non saranno disponibili senza blocco schermo.\n\nVengono eliminati anche il modello e le immagini dell\'impronta memorizzati sul dispositivo. Non potrai usare la tua impronta per eseguire l\'autenticazione nelle app.</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock of unknown type and the user has face authentication and fingerprint enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_unknown_face_fingerprint">Le funzionalità di protezione del dispositivo non saranno disponibili senza blocco schermo.\n\nVengono eliminati il modello e le immagini dell\'impronta memorizzati sul dispositivo. Verrà eliminato definitivamente e in sicurezza anche il modello del volto. Non potrai usare il tuo volto o la tua impronta per eseguire l\'autenticazione nelle app.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">Quando usi lo Sblocco con l\'Impronta, le immagini vengono usate per aggiornare il modello dell\'impronta. Le immagini e il modello dell\'impronta vengono memorizzati in modo sicuro sul tuo smartphone e non vengono mai trasferiti dal dispositivo. L\'intera elaborazione avviene in modo sicuro sul tuo smartphone.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">Quando utilizza lo Sblocco con l\'Impronta, le immagini vengono usate per aggiornare il modello dell\'impronta. Le immagini e il modello dell\'impronta di tuo figlio vengono memorizzati in modo sicuro sul telefono e non vengono mai trasferiti dal dispositivo. L\'intera elaborazione avviene in modo sicuro sul telefono.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Puoi eliminare le immagini e il modello dell\'impronta o disattivare lo Sblocco con l\'Impronta in qualsiasi momento nelle Impostazioni. Le immagini e i modelli delle impronte rimangono memorizzati sullo smartphone finché non li elimini.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Tu e tuo figlio potete eliminare le immagini e il modello dell\'impronta o disattivare lo Sblocco con l\'Impronta in qualsiasi momento nelle Impostazioni. Le immagini e i modelli delle impronte rimangono memorizzati sul telefono finché non vengono eliminati.</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock pattern and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint">La sequenza protegge il telefono se viene smarrito o rubato.\n\nVengono eliminati anche il modello e le immagini dell\'impronta memorizzati sul dispositivo. Non potrai usare la tua impronta per eseguire l\'autenticazione nelle app.</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock pattern and the user has face authentication and fingerprint enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_pattern_face_fingerprint">La sequenza protegge il telefono se viene smarrito o rubato.\n\nVengono eliminati il modello e le immagini dell\'impronta memorizzati sul dispositivo. Verrà eliminato definitivamente e in sicurezza anche il modello del volto. Non potrai usare il tuo volto o la tua impronta per eseguire l\'autenticazione nelle app.</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock PIN and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint">Il PIN protegge il telefono se viene smarrito o rubato.\n\nVengono eliminati anche il modello e le immagini dell\'impronta memorizzati sul dispositivo. Non potrai usare la tua impronta per eseguire l\'autenticazione nelle app.</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock PIN and the user has face authentication and fingerprint enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_pin_face_fingerprint">Il PIN protegge il telefono se viene smarrito o rubato.\n\nVengono eliminati il modello e le immagini dell\'impronta memorizzati sul dispositivo. Verrà eliminato definitivamente e in sicurezza anche il modello del volto. Non potrai usare il tuo volto o la tua impronta per eseguire l\'autenticazione nelle app.</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock password and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_password_fingerprint">La password protegge il telefono se viene smarrito o rubato.\n\nVengono eliminati anche il modello e le immagini dell\'impronta memorizzati sul dispositivo. Non potrai usare la tua impronta per eseguire l\'autenticazione nelle app.</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock password and the user has face authentication and fingerprint enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_password_face_fingerprint">La password protegge il telefono se viene smarrito o rubato.\n\nVengono eliminati il modello e le immagini dell\'impronta memorizzati sul dispositivo. Verrà eliminato definitivamente e in sicurezza anche il modello del volto. Non potrai usare il tuo volto o la tua impronta per eseguire l\'autenticazione nelle app.</string>
+
+    <!-- Message shown in screen lock picker while setting up the new screen lock with fingerprint option. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_unlock_title">Lo Sblocco con l\'Impronta ti consente di sbloccare il telefono usando la tua impronta. Per motivi di sicurezza, questa opzione richiede un blocco schermo alternativo.</string>
+</resources>

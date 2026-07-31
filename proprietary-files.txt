@@ -128,6 +128,11 @@ product/priv-app/PrebuiltDeskClockGoogle_76042511/PrebuiltDeskClockGoogle_760425
 product/app/AiIconsPrebuilt_20260121/AiIconsPrebuilt_20260121.apk;PRESIGNED
 product/etc/default-permissions/default-permissions_aiicons.xml
 
+# Device Connectivity Service
+system_ext/priv-app/DeviceConnectivityServicePrebuilt_26.01.00/DeviceConnectivityServicePrebuilt_26.01.00.apk;PRESIGNED
+system_ext/etc/default-permissions/default-permissions-com.google.android.apps.pixel.dcservice.xml
+system_ext/etc/permissions/com.google.android.apps.pixel.dcservice.xml
+
 # Device Personalization Services
 product/priv-app/DevicePersonalizationAiAiPrebuiltPixel2022/DevicePersonalizationAiAiPrebuiltPixel2022.apk;PRESIGNED
 
@@ -308,6 +313,7 @@ product/overlay/SettingsProvider__panther__auto_generated_rro_product.apk:produc
 product/overlay/SystemUIGXOverlay.apk;MAKE_COPY_RULE_ONLY
 product/overlay/SystemUIGoogle__panther__auto_generated_rro_product.apk:product/overlay/SystemUIGoogleOverlayProduct.apk;MAKE_COPY_RULE_ONLY
 product/overlay/TeleService__panther__auto_generated_rro_product.apk:product/overlay/TeleServiceOverlayProduct.apk;MAKE_COPY_RULE_ONLY
+product/overlay/UdfpsOverlay.apk;MAKE_COPY_RULE_ONLY
 product/overlay/framework-res__panther__auto_generated_rro_product.apk:product/overlay/FrameworkResOverlayProduct.apk;MAKE_COPY_RULE_ONLY
 
 # PackageInstaller

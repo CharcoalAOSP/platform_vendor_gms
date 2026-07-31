@@ -29,4 +29,5 @@ PRODUCT_PACKAGES += \
     SettingsProviderOverlayProduct \
     SystemUIGXOverlay \
     SystemUIGoogleOverlayProduct \
-    TeleServiceOverlayProduct
+    TeleServiceOverlayProduct \
+    UdfpsOverlay

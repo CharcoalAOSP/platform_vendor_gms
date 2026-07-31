@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Title shown for menu item that launches fingerprint settings or enrollment [CHAR LIMIT=22] -->
+    <string name="security_settings_fingerprint_preference_title">Хурууны хээгээр түгжээ тайлах</string>
+
+    <!-- Title shown for work menu item that launches fingerprint settings or enrollment [CHAR LIMIT=22] -->
+    <string name="security_settings_work_fingerprint_preference_title">Ажлын зориулалттай хурууны хээгээр түгжээ тайлах</string>
+
+    <!-- Introduction title shown in fingerprint enrollment to introduce the fingerprint feature [CHAR LIMIT=29] -->
+    <string name="security_settings_fingerprint_enroll_introduction_title">Хурууны хээгээр түгжээ тайлахыг тохируулах</string>
+
+    <!-- Text shown during fingerprint enrollment to indicate bad sensor calibration. [CHAR LIMIT=100] -->
+    <string name="security_settings_fingerprint_bad_calibration">Засварын үйлчилгээ үзүүлэгч эсвэл g.co/pixel/fingerprintunlock дээр зочилно уу.</string>
+
+    <!-- Title for suggested actions for settings up a fingerprint lock [CHAR LIMIT=46] -->
+    <string name="suggested_fingerprint_lock_settings_title">Хурууны хээгээр түгжээ тайлахыг ашиглах</string>
+
+    <!-- Title for preference that guides the user to skip fingerprint setup [CHAR LIMIT=60]-->
+    <string name="fingerprint_unlock_skip_fingerprint">Хурууны хээгээр түгжээ тайлахгүйгээр үргэлжлүүлэх</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock of unknown type and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint">Төхөөрөмж хамгаалагч онцлогууд нь таны дэлгэцийн түгжээгүйгээр ажиллахгүй.\n\nЭнэ нь мөн таны төхөөрөмж дээр хадгалсан хурууны хээний зураг болон загварыг устгана. Та хурууны хээгээ аппуудын баталгаажуулалтад ашиглах боломжгүй болно.</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock of unknown type and the user has face authentication and fingerprint enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_unknown_face_fingerprint">Төхөөрөмж хамгаалагч онцлогууд нь таны дэлгэцийн түгжээгүйгээр ажиллахгүй.\n\nЭнэ нь таны төхөөрөмж дээр хадгалсан хурууны хээний зураг болон загварыг устгана. Таны нүүрний загварыг мөн бүрмөсөн, аюулгүйгээр устгана. Та царай эсвэл хурууны хээгээ аппуудын баталгаажуулалтад ашиглах боломжгүй болно.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3">Таныг Хурууны хээгээр түгжээ тайлахыг ашиглах үед зургийг таны хурууны хээний загварыг шинэчлэхэд ашиглана. Таны хурууны хээний зураг болон загварыг утсанд тань аюулгүй хадгалах бөгөөд тэндээ үлдэнэ. Бүх боловсруулалт таны утсанд аюулгүйгээр хийгдэнэ.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">Таны хүүхэд Хурууны хээгээр түгжээ тайлахыг ашиглах үед зургийг түүний хурууны хээний загварыг шинэчлэхэд ашиглана. Таны хүүхдийн хурууны хээний зураг болон загварыг утсанд аюулгүй хадгалах бөгөөд тэндээ үлдэнэ. Бүх боловсруулалт утсанд аюулгүйгээр хийгдэнэ.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4">Та хүссэн үедээ Тохиргоо хэсэгт хурууны хээний зураг болон загвараа устгах эсвэл Хурууны хээгээр түгжээ тайлах онцлогийг унтраах боломжтой. Хурууны хээний зураг болон загварыг таныг устгах хүртэл утсан дээр хадгална.</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Та болон таны хүүхэд хүссэн үедээ Тохиргоо хэсэгт түүний хурууны хээний зураг болон загварыг устгах эсвэл Хурууны хээгээр түгжээ тайлах онцлогийг унтраах боломжтой. Хурууны хээний зураг болон загварыг устгах хүртэл утсанд хадгална.</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock pattern and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint">Та утсаа гээсэн эсвэл хулгайд алдсан тохиолдолд хээ үүнийг хамгаалдаг.\n\nЭнэ нь мөн таны төхөөрөмж дээр хадгалсан хурууны хээний зураг болон загварыг устгана. Та хурууны хээгээ аппуудын баталгаажуулалтад ашиглах боломжгүй болно.</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock pattern and the user has face authentication and fingerprint enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_pattern_face_fingerprint">Та утсаа гээсэн эсвэл хулгайд алдсан тохиолдолд хээ үүнийг хамгаалдаг.\n\nЭнэ нь таны төхөөрөмж дээр хадгалсан хурууны хээний зураг болон загварыг устгана. Таны нүүрний загварыг мөн бүрмөсөн, аюулгүйгээр устгана. Та царай эсвэл хурууны хээгээ аппуудын баталгаажуулалтад ашиглах боломжгүй болно.</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock PIN and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint">Та утсаа гээсэн эсвэл хулгайд алдсан тохиолдолд ПИН үүнийг хамгаалдаг.\n\nЭнэ нь мөн таны төхөөрөмж дээр хадгалсан хурууны хээний зураг болон загварыг устгана. Та хурууны хээгээ аппуудын баталгаажуулалтад ашиглах боломжгүй болно.</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock PIN and the user has face authentication and fingerprint enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_pin_face_fingerprint">Та утсаа гээсэн эсвэл хулгайд алдсан тохиолдолд ПИН үүнийг хамгаалдаг.\n\nЭнэ нь таны төхөөрөмж дээр хадгалсан хурууны хээний зураг болон загварыг устгана. Таны нүүрний загварыг мөн бүрмөсөн, аюулгүйгээр устгана. Та царай эсвэл хурууны хээгээ аппуудын баталгаажуулалтад ашиглах боломжгүй болно.</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock password and the user has fingerprints enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_password_fingerprint">Та утсаа гээсэн эсвэл хулгайд алдсан тохиолдолд нууц үг үүнийг хамгаалдаг.\n\nЭнэ нь мөн таны төхөөрөмж дээр хадгалсан хурууны хээний зураг болон загварыг устгана. Та хурууны хээгээ аппуудын баталгаажуулалтад ашиглах боломжгүй болно.</string>
+
+    <!-- Content of the dialog shown when the user removes the device lock password and the user has face authentication and fingerprint enrolled [CHAR LIMIT=NONE] -->
+    <string name="unlock_disable_frp_warning_content_password_face_fingerprint">Та утсаа гээсэн эсвэл хулгайд алдсан тохиолдолд нууц үг үүнийг хамгаалдаг.\n\nЭнэ нь таны төхөөрөмж дээр хадгалсан хурууны хээний зураг болон загварыг устгана. Таны нүүрний загварыг мөн бүрмөсөн, аюулгүйгээр устгана. Та царай эсвэл хурууны хээгээ аппуудын баталгаажуулалтад ашиглах боломжгүй болно.</string>
+
+    <!-- Message shown in screen lock picker while setting up the new screen lock with fingerprint option. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_unlock_title">Хурууны хээгээр түгжээ тайлах онцлогийн тусламжтайгаар та хурууны хээгээ ашиглан утасныхаа түгжээг тайлах боломжтой. Аюулгүй байдлын үүднээс энэ сонголтод нөөц дэлгэцийн түгжээ шаардлагатай.</string>
+</resources>
