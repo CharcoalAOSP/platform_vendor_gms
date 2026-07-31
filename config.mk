@@ -30,13 +30,49 @@ PRODUCT_PRODUCT_PROPERTIES += \
 DISABLE_DEXPREOPT_CHECK := true
 
 PRODUCT_PACKAGES += \
-    com.google.android.extservices \
+    com.google.android.adbd \
+    com.google.android.art \
+    com.google.android.configinfrastructure \
+    com.google.android.conscryp \
+    com.google.android.extservice \
+    com.google.android.healthfitness \
+    com.google.android.ipsec \
+    com.google.android.media \
+    com.google.android.media.swcodec \
+    com.google.android.neuralnetworks \
+    com.google.android.ondevicepersonalization \
+    com.google.android.os.statsd \
     com.google.android.permission \
-    com.google.android.gmssystem.prodvic
+    com.google.android.profiling \
+    com.google.android.resolv \
+    com.google.android.scheduling \
+    com.google.android.sdkext \
+    com.google.android.tzdata6 \
+    com.google.android.uprobestats \
+    com.google.android.webapp \
+    com.google.android.gmssystem
 
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+    system/apex/com.google.android.adbd.apex \
+    system/apex/com.google.android.art.apex \
+    system/apex/com.google.android.configinfrastructure.apex \
+    system/apex/com.google.android.conscrypt.apex \
     system/apex/com.google.android.extservices.apex \
-    system/apex/com.google.android.permission.apex
+    system/apex/com.google.android.healthfitness.apex \
+    system/apex/com.google.android.ipsec.apex \
+    system/apex/com.google.android.media.apex \
+    system/apex/com.google.android.media.swcodec.apex \
+    system/apex/com.google.android.neuralnetworks.apex \
+    system/apex/com.google.android.ondevicepersonalization.apex \
+    system/apex/com.google.android.os.statsd.apex \
+    system/apex/com.google.android.permission.apex \
+    system/apex/com.google.android.profiling.apex \
+    system/apex/com.google.android.resolv.apex \
+    system/apex/com.google.android.scheduling.apex \
+    system/apex/com.google.android.sdkext.apex \
+    system/apex/com.google.android.tzdata6.apex \
+    system/apex/com.google.android.uprobestats.apex \
+    system/apex/com.google.android.webapp.apex
 
 # Artifact path requirement allowlist
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \

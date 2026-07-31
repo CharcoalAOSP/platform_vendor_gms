@@ -4,12 +4,37 @@ android_app {
 }
 
 android_app {
+    name: "HealthConnectBackupRestoreGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "HealthConnectControllerGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "FederatedComputeGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "OnDevicePersonalizationGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
     name: "GooglePermissionController",
     sdk_version: "system_current",
 }
 
 android_app {
     name: "GoogleSafetyCenterResources",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "WebAppServiceGoogle",
     sdk_version: "system_current",
 }
 

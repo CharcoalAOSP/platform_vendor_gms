@@ -1,11 +1,129 @@
 prebuilt_apex {
-    name: "com.google.android.extservices",
+    name: "com.google.android.adbd",
+    owner: "google",
+    src: "com.google.android.adbd.apex",
+    filename: "com.google.android.adbd.apex",
+    overrides: ["com.android.adbd"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.art",
+    owner: "google",
+    src: "com.google.android.art.apex",
+    filename: "com.google.android.art.apex",
+    overrides: [
+        "libsigchain",
+        "libnativeloader",
+        "libnativehelper",
+        "com.android.art",
+        "com.android.art.debug",
+    ],
+    exported_bootclasspath_fragments: ["art-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["art-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.configinfrastructure",
+    owner: "google",
+    src: "com.google.android.configinfrastructure.apex",
+    filename: "com.google.android.configinfrastructure.apex",
+    overrides: ["com.android.configinfrastructure"],
+    exported_bootclasspath_fragments: ["com.android.configinfrastructure-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.configinfrastructure-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.conscryp",
+    required: ["conscrypt.com.android.conscrypt"],
+    owner: "google",
+    src: "com.google.android.conscrypt.apex",
+    filename: "com.google.android.conscrypt.apex",
+    overrides: ["com.android.conscrypt"],
+    exported_bootclasspath_fragments: ["com.android.conscrypt-bootclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.extservice",
     apps: ["GoogleExtServices"],
-    source_apex_name: "com.google.android.extservices",
     owner: "google",
     src: "com.google.android.extservices.apex",
+    filename: "com.google.android.extservices.apex",
     overrides: ["com.android.extservices"],
-    prefer: true,
+}
+
+prebuilt_apex {
+    name: "com.google.android.healthfitness",
+    apps: [
+        "HealthConnectBackupRestoreGoogle",
+        "HealthConnectControllerGoogle",
+    ],
+    owner: "google",
+    src: "com.google.android.healthfitness.apex",
+    filename: "com.google.android.healthfitness.apex",
+    overrides: ["com.android.healthfitness"],
+    exported_bootclasspath_fragments: ["com.android.healthfitness-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.healthfitness-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.ipsec",
+    required: ["android.net.ipsec.ike.com.android.ipsec"],
+    owner: "google",
+    src: "com.google.android.ipsec.apex",
+    filename: "com.google.android.ipsec.apex",
+    overrides: ["com.android.ipsec"],
+    exported_bootclasspath_fragments: ["com.android.ipsec-bootclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.media",
+    required: ["updatable-media.com.android.media"],
+    owner: "google",
+    src: "com.google.android.media.apex",
+    filename: "com.google.android.media.apex",
+    overrides: ["com.android.media"],
+    exported_bootclasspath_fragments: ["com.android.media-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.media-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.media.swcodec",
+    owner: "google",
+    src: "com.google.android.media.swcodec.apex",
+    filename: "com.google.android.media.swcodec.apex",
+    overrides: ["com.android.media.swcodec"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.neuralnetworks",
+    owner: "google",
+    src: "com.google.android.neuralnetworks.apex",
+    filename: "com.google.android.neuralnetworks.apex",
+    overrides: ["com.android.neuralnetworks"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.ondevicepersonalization",
+    apps: [
+        "FederatedComputeGoogle",
+        "OnDevicePersonalizationGoogle",
+    ],
+    owner: "google",
+    src: "com.google.android.ondevicepersonalization.apex",
+    filename: "com.google.android.ondevicepersonalization.apex",
+    overrides: ["com.android.ondevicepersonalization"],
+    exported_bootclasspath_fragments: ["com.android.ondevicepersonalization-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.ondevicepersonalization-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.os.statsd",
+    owner: "google",
+    src: "com.google.android.os.statsd.apex",
+    filename: "com.google.android.os.statsd.apex",
+    overrides: ["com.android.os.statsd"],
+    exported_bootclasspath_fragments: ["com.android.os.statsd-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.os.statsd-systemserverclasspath-fragment"],
 }
 
 prebuilt_apex {
@@ -14,28 +132,79 @@ prebuilt_apex {
         "GooglePermissionController",
         "GoogleSafetyCenterResources",
     ],
-    source_apex_name: "com.google.android.permission",
     required: [
         "framework-permission.com.android.permission",
         "service-permission.com.android.permission",
     ],
     owner: "google",
     src: "com.google.android.permission.apex",
+    filename: "com.google.android.permission.apex",
     overrides: ["com.android.permission"],
-    prefer: true,
     exported_bootclasspath_fragments: ["com.android.permission-bootclasspath-fragment"],
     exported_systemserverclasspath_fragments: ["com.android.permission-systemserverclasspath-fragment"],
 }
 
 prebuilt_apex {
-    name: "com.google.android.gmssystem",
-    apps: [
-        "PrebuiltGmsCoreVic",
+    name: "com.google.android.profiling",
+    owner: "google",
+    src: "com.google.android.profiling.apex",
+    filename: "com.google.android.profiling.apex",
+    overrides: ["com.android.profiling"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.resolv",
+    owner: "google",
+    src: "com.google.android.resolv.apex",
+    filename: "com.google.android.resolv.apex",
+    overrides: ["com.android.resolv"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.scheduling",
+    owner: "google",
+    src: "com.google.android.scheduling.apex",
+    filename: "com.google.android.scheduling.apex",
+    overrides: ["com.android.scheduling"],
+    exported_bootclasspath_fragments: ["com.android.scheduling-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.scheduling-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.sdkext",
+    required: [
+        "framework-sdkextensions.com.android.sdkext",
     ],
-    filename: "com.google.android.gmssystem.prodvic.apex",
-    source_apex_name: "com.google.android.gmssystem.prodvic",
+    owner: "google",
+    src: "com.google.android.sdkext.apex",
+    filename: "com.google.android.sdkext.apex",
+    overrides: ["com.android.sdkext"],
+    exported_bootclasspath_fragments: ["com.android.sdkext-bootclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.tzdata6",
+    owner: "google",
+    src: "com.google.android.tzdata6.apex",
+    filename: "com.google.android.tzdata6.apex",
+    overrides: ["com.android.tzdata"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.webapp",
+    apps: ["WebAppServiceGoogle"],
+    owner: "google",
+    src: "com.google.android.webapp.apex",
+    filename: "com.google.android.webapp.apex",
+    overrides: ["com.android.webapp"],
+    exported_bootclasspath_fragments: ["com.android.webapp-bootclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.gmssystem",
+    apps: ["PrebuiltGmsCoreVic"],
     owner: "google",
     src: "com.google.android.gmssystem.prodvic.apex",
-    prefer: true,
+    filename: "com.google.android.gmssystem.prodvic.apex",
     product_specific: true,
 }
