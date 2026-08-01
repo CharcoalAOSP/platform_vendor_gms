@@ -100,6 +100,9 @@ product/app/WebViewGoogle-Stub/WebViewGoogle-Stub.apk;OVERRIDES=webview;PRESIGNE
 product/app/WebViewGoogle/WebViewGoogle.apk.gz
 product/priv-app/ScribePrebuilt_v8.7.880674799/ScribePrebuilt_v8.7.880674799.apk;PRESIGNED
 
+# Calculator
+product/app/CalculatorGooglePrebuilt_85006267/CalculatorGooglePrebuilt_85006267.apk;PRESIGNED
+
 # Calendar
 product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk;OVERRIDES=Calendar;PRESIGNED
 
@@ -444,6 +447,7 @@ system_ext/priv-app/TurboAdapter/TurboAdapter.apk
 product/app/GoogleTTS/GoogleTTS.apk;PRESIGNED
 product/app/talkback/talkback.apk;PRESIGNED
 product/app/VoiceAccessPrebuilt/VoiceAccessPrebuilt.apk;PRESIGNED
+product/priv-app/RecorderPrebuilt_847964105/RecorderPrebuilt_847964105.apk;PRESIGNED
 product/etc/default-permissions/default-permissions_talkback.xml
 
 # VPN

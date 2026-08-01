@@ -228,6 +228,7 @@ PRODUCT_PACKAGES += \
     GooglePackageInstaller \
     TagGoogle \
     AiIconsPrebuilt_20260121 \
+    CalculatorGooglePrebuilt_85006267 \
     CalendarGooglePrebuilt \
     Chrome-Stub \
     DevicePolicyPrebuilt-v10572820 \
@@ -291,6 +292,7 @@ PRODUCT_PACKAGES += \
     TfliteDynamitePrebuilt \
     VisionBarcodePrebuilt \
     PrebuiltPixelCoreServices \
+    RecorderPrebuilt_847964105 \
     RelationshipsPrebuilt-301 \
     SCONE-v69510 \
     SafetyHubPrebuilt \
