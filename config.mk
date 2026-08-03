@@ -136,6 +136,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.feature.skip_button_use_mobile_data.carrier1839=true \
     setupwizard.theme=glif_expressive
 
+# Accessibility Menu
+PRODUCT_PACKAGES += \
+    AccessibilityMenu
+
 # SystemUI plugins
 PRODUCT_PACKAGES += \
     QuickAccessWallet

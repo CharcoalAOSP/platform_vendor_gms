@@ -305,7 +305,6 @@ PRODUCT_PACKAGES += \
     WallpaperEffect \
     WeatherPixelPrebuilt_10006113 \
     WellbeingPrebuilt \
-    AccessibilityMenu \
     EmergencyInfoGoogleNoUi \
     Flipendo \
     AvatarPickerGoogle \

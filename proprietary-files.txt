@@ -1,6 +1,3 @@
-# Accessibility Menu
-system_ext/app/AccessibilityMenu/AccessibilityMenu.apk;PRESIGNED
-
 # Adaptive Connectivity Services
 product/priv-app/SCONE-v69510/SCONE-v69510.apk;PRESIGNED
 
