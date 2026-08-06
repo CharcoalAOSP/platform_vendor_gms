@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/preferred-apps/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/preferred-apps/google.xml \
     vendor/gms/common/proprietary/product/etc/security/fsverity/gms_fsverity_cert.der:$(TARGET_COPY_OUT_PRODUCT)/etc/security/fsverity/gms_fsverity_cert.der \
     vendor/gms/common/proprietary/product/etc/security/fsverity/play_store_fsi_cert.der:$(TARGET_COPY_OUT_PRODUCT)/etc/security/fsverity/play_store_fsi_cert.der \
+    vendor/gms/common/proprietary/product/etc/sysconfig/adaptivecharging.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/adaptivecharging.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/allowed_apex_com.google.android.gmssystem.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowed_apex_com.google.android.gmssystem.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/ambient_data.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/ambient_data.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/app-lock-exempt-pixel.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/app-lock-exempt-pixel.xml \
