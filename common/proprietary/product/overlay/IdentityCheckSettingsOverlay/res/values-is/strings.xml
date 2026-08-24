@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Þegar þú ert ekki á traustum stöðum eins og heimili þínu:&lt;ul&gt;&lt;li&gt;Ef þú ert með tengt Pixel Watch 3-úr eða nýrra geturðu annaðhvort notað lífkenni eða PIN-númerið þitt&lt;/li&gt;&lt;li&gt;Ef úrið þitt er ekki tengt verður fingrafars- eða andlitskennis krafist&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

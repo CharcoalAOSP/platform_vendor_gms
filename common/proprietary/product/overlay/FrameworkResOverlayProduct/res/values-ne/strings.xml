@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>आफ्नो औँला सार्नुहोस्। फेरि प्रयास गर्नुहोस्।</item>
+        <item>यो औँला फिंगरप्रिन्टका लागि दर्ता गरिसकिएको छ। अर्को औँला दर्ता गर्नुहोस्।</item>
+        <item>फोटोको गुणस्तर खराब छ। फेरि प्रयास गर्नुहोस्।</item>
+        <item/>
+        <item>फोटोको गुणस्तर खराब छ। फेरि प्रयास गर्नुहोस्।</item>
+        <item/>
+        <item/>
+        <item>स्क्रिनमा दाग लागेको छ र यो दाग हटाउन स्क्रिन सफा गर्नुहोस्। फेरि प्रयास गर्नुहोस्।</item>
+        <item>फोटो रिड गर्न सकिएन। फेरि प्रयास गर्नुहोस्।</item>
+        <item/>
+    </string-array>
+
+    <!-- Generic error message shown when fingerprint needs calibration [CHAR LIMIT=150] -->
+    <string name="fingerprint_error_bad_calibration">फिंगरप्रिन्ट सेन्सर प्रयोग गर्न सकिएन। मर्मत केन्द्रमा जानुहोस् वा g.co/pixel/fingerprintunlock हेर्नुहोस्</string>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>डेटा खराब छ। फेरि प्रयास गर्नुहोस्।</item>
+        <item>यो औँला फिंगरप्रिन्टका लागि दर्ता गर्न सकिएन। फेरि प्रयास गर्नुहोस्।</item>
+    </string-array>
+
+    <!-- Notification content shown when the system requires the user to re-calibrate their fingerprint. [CHAR LIMIT=NONE] -->
+    <string name="fingerprint_recalibrate_notification_content">मर्मत केन्द्रमा जानुहोस् वा g.co/pixel/fingerprintunlock हेर्नुहोस्</string>
+
+    <!-- [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 5444908404021316250] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">ब्याट्री सेभरले तपाईंको यन्त्रको ब्याट्रीको आयु बढाउन:\n\n• अँध्यारो थिम अन गर्छ\n• पृष्ठभूमिका क्रियाकलाप, केही भिजुअल इफेक्ट तथा “Hey Google” जस्ता अन्य सुविधाहरू अफ गर्छ वा सीमित पार्छ\n• तपाईंका नेटवर्क कनेक्सनहरू उत्कृष्ट पार्छ\n\n<annotation id="url">थप जान्नुहोस्</annotation></string>
+</resources>

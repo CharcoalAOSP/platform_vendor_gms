@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Luotettujen paikkojen, kuten kodin, ulkopuolella:&lt;ul&gt;&lt;li&gt;Jos sinulla on yhdistetty Pixel Watch 3 tai uudempi, voit käyttää joko biometriikkaa tai PIN-koodia.&lt;/li&gt;&lt;li&gt;Jos sinulla ei ole yhdistettyä Pixel Watchia, sinun on käytettävä sormenjälkeä tai kasvojentunnistusavausta.&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">‏מחוץ למקומות בטוחים, כמו הבית שלך:&lt;ul&gt;&lt;li&gt;אם יש לך Pixel Watch 3 ואילך מחובר, אפשר להשתמש בנתונים ביומטריים או בקוד האימות&lt;/li&gt;&lt;li&gt;אם אין לך שעון מחובר, צריך להשתמש בטביעת אצבע או בפתיחה בזיהוי פנים&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

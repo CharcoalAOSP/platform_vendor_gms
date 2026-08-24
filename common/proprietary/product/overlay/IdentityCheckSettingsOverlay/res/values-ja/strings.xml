@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">自宅などの信頼できる場所以外の場合:&lt;ul&gt;&lt;li&gt;Google Pixel Watch 3 以降が接続されている場合は、生体認証または PIN を使用できます&lt;/li&gt;&lt;li&gt;Google Pixel Watch が接続されていない場合は、指紋認証または顔認証を使用する必要があります&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

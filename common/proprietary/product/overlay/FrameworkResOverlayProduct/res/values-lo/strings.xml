@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ເລື່ອນນິ້ວຂອງທ່ານ. ກະລຸນາລອງໃໝ່.</item>
+        <item>ເຄີຍລົງທະບຽນນິ້ວນີ້ແລ້ວ, ກະລຸນາໃຊ້ນິ້ວອື່ນ.</item>
+        <item>ຄຸນນະພາບຮູບບໍ່ດີ. ກະລຸນາລອງໃໝ່.</item>
+        <item/>
+        <item>ຄຸນນະພາບຮູບບໍ່ດີ. ກະລຸນາລອງໃໝ່.</item>
+        <item/>
+        <item/>
+        <item>ກວດພົບຮອຍເປື້ອນ, ກະລຸນາເຊັດໜ້າຈໍ. ກະລຸນາລອງໃໝ່.</item>
+        <item>ອ່ານຮູບບໍ່ສຳເລັດ. ກະລຸນາລອງໃໝ່.</item>
+        <item/>
+    </string-array>
+
+    <!-- Generic error message shown when fingerprint needs calibration [CHAR LIMIT=150] -->
+    <string name="fingerprint_error_bad_calibration">ບໍ່ສາມາດໃຊ້ເຊັນເຊີລາຍນິ້ວມືໄດ້. ກະລຸນາໄປຫາຜູ້ໃຫ້ບໍລິການສ້ອມແປງ ຫຼື g.co/pixel/fingerprintunlock</string>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ຂໍ້ມູນເສຍຫາຍ. ກະລຸນາລອງໃໝ່.</item>
+        <item>ລົງທະບຽນນິ້ວມືບໍ່ສຳເລັດ. ກະລຸນາລອງໃໝ່.</item>
+    </string-array>
+
+    <!-- Notification content shown when the system requires the user to re-calibrate their fingerprint. [CHAR LIMIT=NONE] -->
+    <string name="fingerprint_recalibrate_notification_content">ກະລຸນາໄປຫາຜູ້ໃຫ້ບໍລິການສ້ອມແປງ ຫຼື g.co/pixel/fingerprintunlock</string>
+
+    <!-- [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 5444908404021316250] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">ເພື່ອຍືດອາຍຸແບັດເຕີຣີ, ຕົວປະຢັດແບັດເຕີຣີຈະ:\n\n• ເປີດໃຊ້ຮູບແບບສີສັນມືດ\n• ປິດ ຫຼື ຈຳກັດການເຄື່ອນໄຫວໃນພື້ນຫຼັງ, ເອັບເຟັກດ້ານພາບບາງຢ່າງ ແລະ ຄຸນສົມບັດອື່ນໆ ເຊັ່ນ “Hey Google”\n• ປັບແຕ່ງການເຊື່ອມຕໍ່ເຄືອຂ່າຍຂອງທ່ານ\n\n<annotation id="url">ສຶກສາເພີ່ມເຕີມ</annotation></string>
+</resources>

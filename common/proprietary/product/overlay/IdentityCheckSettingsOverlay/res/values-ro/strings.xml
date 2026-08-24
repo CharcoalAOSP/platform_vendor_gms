@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">În afara locurilor de încredere, de exemplu, acasă:&lt;ul&gt;&lt;li&gt;dacă ai un Pixel Watch 3 sau o versiune ulterioară conectată, poți folosi datele biometrice sau PIN-ul;&lt;/li&gt;&lt;li&gt;dacă nu ai un Pixel Watch conectat, va trebui să folosești Deblocarea cu amprenta sau Deblocarea facială.&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

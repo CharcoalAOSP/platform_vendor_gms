@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Etxean edo beste toki fidagarri batean ez bazaude:&lt;ul&gt;&lt;li&gt;Pixel Watch 3 edo bertsio berriago bat konektatuta badaukazu, sistema biometrikoak edo PINa erabil ditzakezu.&lt;/li&gt;&lt;li&gt;Pixel Watch-ik konektatuta ez badaukazu, hatz-marka edo aurpegi bidez desblokeatzeko eginbidea erabili beharko duzu.&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

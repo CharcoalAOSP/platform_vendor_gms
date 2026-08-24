@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Mugitu hatza eta saiatu berriro.</item>
+        <item>Hatza erregistratuta dago jada. Erabili beste bat.</item>
+        <item>Kalitate eskasa du irudiak. Saiatu berriro.</item>
+        <item/>
+        <item>Kalitate eskasa du irudiak. Saiatu berriro.</item>
+        <item/>
+        <item/>
+        <item>Zikingune bat hauteman da. Garbitu pantaila eta saiatu berriro.</item>
+        <item>Ezin izan da irakurri irudia. Saiatu berriro.</item>
+        <item/>
+    </string-array>
+
+    <!-- Generic error message shown when fingerprint needs calibration [CHAR LIMIT=150] -->
+    <string name="fingerprint_error_bad_calibration">Ezin da erabili hatz-marken sentsorea. Jarri harremanetan konponketak egiten dituen hornitzaile batekin edo joan g.co/pixel/fingerprintunlock helbidera.</string>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Datuak ez dira zuzenak. Saiatu berriro.</item>
+        <item>Ezin izan da erregistratu hatza. Saiatu berriro.</item>
+    </string-array>
+
+    <!-- Notification content shown when the system requires the user to re-calibrate their fingerprint. [CHAR LIMIT=NONE] -->
+    <string name="fingerprint_recalibrate_notification_content">Jarri harremanetan konponketak egiten dituen hornitzaile batekin edo joan g.co/pixel/fingerprintunlock helbidera</string>
+
+    <!-- [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 5444908404021316250] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">Bateriaren iraupena luzatzeko, erabili bateria-aurrezlea:\n\n• Gai iluna aktibatzen du.\n• Atzeko planoko jarduerak, zenbait efektu bisual eta beste eginbide batzuk desaktibatzen edo murrizten ditu, hala nola \"Ok Google\".\n• Sare-konexioak optimizatzen ditu.\n\n<annotation id="url">Lortu informazio gehiago</annotation></string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">სანდო ადგილების, მაგალითად, თქვენი სახლის გარეთ:&lt;ul&gt;&lt;li&gt;თუ გაქვთ დაკავშირებული Pixel Watch 3 ან უფრო ახალი მოდელი, შეგიძლიათ გამოიყენოთ ბიომეტრიული მონაცემები ან თქვენი PIN-კოდი&lt;/li&gt;&lt;li&gt;თუ არ გაქვთ დაკავშირებული Pixel Watch, საჭირო იქნება თითის ანაბეჭდით ან სახით განბლოკვის გამოყენება&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

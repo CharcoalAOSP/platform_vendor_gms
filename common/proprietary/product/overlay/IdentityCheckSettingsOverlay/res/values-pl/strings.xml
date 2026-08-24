@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Poza zaufanymi miejscami, takimi jak dom:&lt;ul&gt;&lt;li&gt;jeśli masz połączony zegarek Pixel Watch 3 lub nowszy, możesz używać biometrii lub kodu PIN;&lt;/li&gt;&lt;li&gt;jeśli nie masz połączonego zegarka Pixel Watch, urządzenie będzie można odblokować odciskiem palca lub przez rozpoznawanie twarzy.&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

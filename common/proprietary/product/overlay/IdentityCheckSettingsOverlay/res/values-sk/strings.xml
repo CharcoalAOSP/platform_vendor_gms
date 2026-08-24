@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Mimo dôveryhodných miest, ako je váš domov:&lt;ul&gt;&lt;li&gt;ak máte pripojené hodinky Pixel Watch 3 alebo novšie, môžete použiť biometriu alebo PIN;&lt;/li&gt;&lt;li&gt;ak nemáte pripojené hodinky Pixel Watch, budete musieť použiť odomknutie odtlačkom prsta alebo tvárou.&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

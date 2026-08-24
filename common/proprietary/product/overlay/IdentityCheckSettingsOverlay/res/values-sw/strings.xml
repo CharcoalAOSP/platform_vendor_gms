@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Nje ya maeneo unayoyaamini kama vile nyumbani kwako:&lt;ul&gt;&lt;li&gt;Ikiwa umeunganisha Pixel Watch 3 au toleo jipya zaidi, unaweza kutumia taarifa za kibayometri au PIN yako&lt;/li&gt;&lt;li&gt;Ikiwa hujaunganisha Pixel Watch, utahitajika kutumia Alama ya Kidole au kipengele cha Kufungua kwa Uso&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

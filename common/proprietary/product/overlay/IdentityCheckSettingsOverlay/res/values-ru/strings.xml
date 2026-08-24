@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">За пределами безопасных мест, например вне дома:&lt;ul&gt;&lt;li&gt;Если у вас подключены часы Pixel Watch 3 или более новая модель, вы можете подтверждать личность с помощью биометрии или PIN-кода.&lt;/li&gt;&lt;li&gt;Если часы Pixel Watch не подключены, потребуется использовать отпечаток пальца или фейсконтроль.&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

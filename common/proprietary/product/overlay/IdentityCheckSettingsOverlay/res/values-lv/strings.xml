@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Ārpus uzticamām vietām, piemēram, mājām:&lt;ul&gt;&lt;li&gt;ja jums ir pievienots Pixel Watch 3 vai jaunāks pulkstenis, varat izmantot biometriju vai PIN;&lt;/li&gt;&lt;li&gt;ja jums nav pievienota Pixel Watch pulksteņa, jums būs jāizmanto autorizācija ar pirksta nospiedumu vai autorizācija pēc sejas.&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Di luar tempat tepercaya seperti rumah Anda:&lt;ul&gt;&lt;li&gt;Jika Anda memiliki Pixel Watch 3 atau versi yang lebih baru yang terhubung, Anda dapat menggunakan biometrik atau PIN&lt;/li&gt;&lt;li&gt;Jika Anda tidak memiliki Pixel Watch yang terhubung, Anda akan diminta menggunakan fitur Buka dengan Sidik Jari atau Buka dengan Wajah&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

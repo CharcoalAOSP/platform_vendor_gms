@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Eviniz kimi etibarlı yerlərdən kənarda:&lt;ul&gt;&lt;li&gt;Qoşulmuş Pixel Watch 3 və ya daha yeni saatınız varsa, biometrik məlumatlardan və ya PIN-dən istifadə edə bilərsiniz&lt;/li&gt;&lt;li&gt;Qoşulmuş Pixel Watch-unuz yoxdursa, Barmaq izi və ya Üz ilə Kiliddən Açma tələb olunacaq&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

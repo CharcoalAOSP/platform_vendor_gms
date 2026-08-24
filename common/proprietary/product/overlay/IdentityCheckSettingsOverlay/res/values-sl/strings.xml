@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Zunaj zaupanja vrednih mest, kot je dom:&lt;ul&gt;&lt;li&gt;Če imate povezano uro Pixel Watch 3 ali novejšo, lahko uporabite biometrične podatke ali kodo PIN.&lt;/li&gt;&lt;li&gt;Če nimate povezane ure Pixel Watch, boste morali uporabiti odklepanje s prstnim odtisom ali obrazom.&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

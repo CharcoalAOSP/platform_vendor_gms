@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">အိမ်ကဲ့သို့သော ယုံကြည်ရသည့်နေရာများ၏ ပြင်ပ၌-&lt;ul&gt;&lt;li&gt;သင့်တွင် ချိတ်ဆက်ထားသော Pixel Watch 3 နှင့်အထက် ဗားရှင်းရှိပါက ဇီဝမက်ထရစ်များ (သို့) ပင်နံပါတ်ကို သုံးနိုင်သည်&lt;/li&gt;&lt;li&gt;သင့်တွင် ချိတ်ဆက်ထားသော Pixel Watch မရှိပါက ‘လက်ဗွေ’ (သို့) ‘မျက်နှာပြ လော့ခ်ဖွင့်ခြင်း’ ကို သုံးရပါမည်&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

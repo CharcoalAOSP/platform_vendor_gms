@@ -1,0 +1,4 @@
+bool:config_hspa_data_distinguishable
+bool:config_repairModeSupported
+bool:config_showMin3G
+string-array:config_highRefreshRateBlacklist

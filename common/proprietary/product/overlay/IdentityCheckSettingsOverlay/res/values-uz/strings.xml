@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Uy kabi ishonchli joylardan tashqarida:&lt;ul&gt;&lt;li&gt;Agar Pixel Watch 3 yoki undan keyingi versiyasi ulangan boʻlsa, biometriya yoki PIN koddan foydalanishingiz mumkin&lt;/li&gt;&lt;li&gt;Agar Pixel Watch ulanmagan boʻlsa, barmoq izi yoki yuz bilan ochish kerak boʻladi&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Buite vertroude plekke soos jou huis:&lt;ul&gt;&lt;li&gt;Jy kan óf biometrie óf jou PIN gebruik as jy ’n gekoppelde Pixel Watch 3 of nuwer het&lt;/li&gt;&lt;li&gt;As jy nie ’n gekoppelde Pixel Watch het nie, sal daar van jou vereis word om Vingerafdruk of Gesigslot te gebruik&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">A megbízható helyeken (pl. az otthonán) kívül:&lt;ul&gt;&lt;li&gt;Ha van csatlakoztatott Pixel Watch 3 vagy újabb órája, használhat biometriát vagy PIN-kódot.&lt;/li&gt;&lt;li&gt;Ha nincs csatlakoztatott Pixel Watch órája, a Feloldás ujjlenyomattal vagy az Arcalapú feloldás funkciót kell használnia.&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

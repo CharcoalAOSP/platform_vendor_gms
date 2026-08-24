@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Al di fuori di posti attendibili come la tua casa:&lt;ul&gt;&lt;li&gt;Se hai un Pixel Watch 3 o modelli successivi collegato, puoi usare la biometria o il PIN&lt;/li&gt;&lt;li&gt;Se non hai un Pixel Watch collegato, dovrai usare lo Sblocco con l\'Impronta o con il Volto&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

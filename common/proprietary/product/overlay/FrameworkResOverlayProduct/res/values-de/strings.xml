@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Bewege deinen Finger. Versuch es dann noch einmal.</item>
+        <item>Dieser Finger wurde bereits registriert – verwende einen anderen.</item>
+        <item>Schlechte Bildqualität. Versuch es noch einmal.</item>
+        <item/>
+        <item>Schlechte Bildqualität. Versuch es noch einmal.</item>
+        <item/>
+        <item/>
+        <item>Fleck erkannt. Säubere das Display. Versuch es dann noch einmal.</item>
+        <item>Bild konnte nicht gelesen werden. Versuch es noch einmal.</item>
+        <item/>
+    </string-array>
+
+    <!-- Generic error message shown when fingerprint needs calibration [CHAR LIMIT=150] -->
+    <string name="fingerprint_error_bad_calibration">Fingerabdrucksensor kann nicht verwendet werden – kontaktiere einen Reparaturdienstleister oder gehe zu g.co/pixel/fingerprintunlock</string>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Fehlerhafte Daten. Versuch es noch einmal.</item>
+        <item>Finger konnte nicht registriert werden. Versuch es noch einmal.</item>
+    </string-array>
+
+    <!-- Notification content shown when the system requires the user to re-calibrate their fingerprint. [CHAR LIMIT=NONE] -->
+    <string name="fingerprint_recalibrate_notification_content">Kontaktiere einen Reparaturdienstleister oder gehe zu g.co/pixel/fingerprintunlock</string>
+
+    <!-- [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 5444908404021316250] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">Der Stromsparmodus sorgt für eine längere Akkulaufzeit:\n\n• Das dunkle Design wird aktiviert\n• Hintergrundaktivitäten, einige optische Effekte und weitere Funktionen wie „Hey Google“ werden abgeschaltet oder eingeschränkt\n• Deine Netzwerkverbindungen werden optimiert\n\n<annotation id="url">Weitere Informationen</annotation></string>
+</resources>

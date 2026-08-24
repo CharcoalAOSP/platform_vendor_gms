@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Перемістіть палець. Повторіть спробу.</item>
+        <item>Відбиток цього пальця вже зареєстрований. Спробуйте інший.</item>
+        <item>Погана якість зображення. Повторіть спробу.</item>
+        <item/>
+        <item>Погана якість зображення. Повторіть спробу.</item>
+        <item/>
+        <item/>
+        <item>Виявлено забруднення. Очистьте екран і повторіть спробу.</item>
+        <item>Не вдалося прочитати зображення. Повторіть спробу.</item>
+        <item/>
+    </string-array>
+
+    <!-- Generic error message shown when fingerprint needs calibration [CHAR LIMIT=150] -->
+    <string name="fingerprint_error_bad_calibration">Не вдається скористатися сканером відбитків пальців. Зверніться до постачальника послуг із ремонту або перейдіть на сторінку g.co/pixel/fingerprintunlock</string>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Неправильні дані. Повторіть спробу.</item>
+        <item>Не вдалося зареєструвати відбиток пальця. Повторіть спробу.</item>
+    </string-array>
+
+    <!-- Notification content shown when the system requires the user to re-calibrate their fingerprint. [CHAR LIMIT=NONE] -->
+    <string name="fingerprint_recalibrate_notification_content">Зверніться до постачальника послуг із ремонту або перейдіть на сторінку g.co/pixel/fingerprintunlock</string>
+
+    <!-- [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 5444908404021316250] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">Щоб подовжити час роботи акумулятора, режим енергозбереження:\n\n• вмикає темну тему;\n• припиняє або обмежує фонову активність, вимикає деякі візуальні ефекти та інші енергозатратні функції, зокрема команду \"Ok Google\";\n• оптимізує з\'єднання з мережею.\n\n<annotation id="url">Докладніше</annotation></string>
+</resources>

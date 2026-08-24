@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">За межамі давераных месцаў, такіх як ваш дом:&lt;ul&gt;&lt;li&gt;Калі ў вас падключаны гадзіннік Pixel Watch 3 або пазнейшай версіі, вы можаце выкарыстоўваць біяметрыю або PIN-код.&lt;/li&gt;&lt;li&gt;Калі ў вас няма падключанага гадзінніка Pixel Watch, вам трэба будзе выкарыстоўваць адбітак пальца або распазнаванне твару.&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

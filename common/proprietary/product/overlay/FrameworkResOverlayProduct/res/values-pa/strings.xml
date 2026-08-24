@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ਆਪਣੀ ਉਂਗਲ ਹਿਲਾਓ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item>ਇਸ ਉਂਗਲ ਦਾ ਫਿੰਗਰਪ੍ਰਿੰਟ ਪਹਿਲਾਂ ਤੋਂ ਹੀ ਦਰਜ ਹੈ, ਕੋਈ ਵੱਖਰੀ ਉਂਗਲ ਵਰਤੋ।</item>
+        <item>ਚਿੱਤਰ ਦੀ ਕੁਆਲਿਟੀ ਖਰਾਬ ਹੈ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item/>
+        <item>ਚਿੱਤਰ ਦੀ ਕੁਆਲਿਟੀ ਖਰਾਬ ਹੈ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item/>
+        <item/>
+        <item>ਧੱਬਿਆਂ ਦਾ ਪਤਾ ਲੱਗਿਆ, ਸਕ੍ਰੀਨ ਸਾਫ਼ ਕਰੋ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item>ਚਿੱਤਰ ਨੂੰ ਪੜ੍ਹਨਾ ਅਸਫਲ ਰਿਹਾ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item/>
+    </string-array>
+
+    <!-- Generic error message shown when fingerprint needs calibration [CHAR LIMIT=150] -->
+    <string name="fingerprint_error_bad_calibration">ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੈਂਸਰ ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ। ਮੁਰੰਮਤ ਪ੍ਰਦਾਨਕ ਨੂੰ ਸੰਪਰਕ ਕਰੋ ਜਾਂ g.co/pixel/fingerprintunlock \'ਤੇ ਜਾਓ</string>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ਗਲਤ ਡਾਟਾ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item>ਉਂਗਲ ਦਾ ਫਿੰਗਰਪ੍ਰਿੰਟ ਦਰਜ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+    </string-array>
+
+    <!-- Notification content shown when the system requires the user to re-calibrate their fingerprint. [CHAR LIMIT=NONE] -->
+    <string name="fingerprint_recalibrate_notification_content">ਮੁਰੰਮਤ ਪ੍ਰਦਾਨਕ ਨੂੰ ਸੰਪਰਕ ਕਰੋ ਜਾਂ g.co/pixel/fingerprintunlock \'ਤੇ ਜਾਓ</string>
+
+    <!-- [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 5444908404021316250] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">ਬੈਟਰੀ ਲਾਈਫ਼ ਵਧਾਉਣ ਲਈ, ਬੈਟਰੀ ਸੇਵਰ:\n\n• ਗੂੜ੍ਹਾ ਥੀਮ ਚਾਲੂ ਕਰਦਾ ਹੈ\n• ਬੈਕਗ੍ਰਾਊਂਡ ਸਰਗਰਮੀ, ਕੁਝ ਦ੍ਰਿਸ਼ਟੀਗਤ ਪ੍ਰਭਾਵਾਂ, ਅਤੇ \"Ok Google\" ਵਰਗੀਆਂ ਹੋਰ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨੂੰ ਬੰਦ ਕਰਦਾ ਹੈ ਜਾਂ ਉਹਨਾਂ \'ਤੇ ਪਾਬੰਦੀ ਲਗਾਉਂਦਾ ਹੈ\n• ਤੁਹਾਡੇ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨਾਂ ਨੂੰ ਸੁਯੋਗ ਬਣਾਉਂਦਾ ਹੈ\n\n<annotation id="url">ਹੋਰ ਜਾਣੋ</annotation></string>
+</resources>

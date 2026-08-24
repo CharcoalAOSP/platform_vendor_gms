@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">‏عند التواجد خارج الأماكن الموثوق بها مثل منزلك:&lt;ul&gt;&lt;li&gt;إذا كانت لديك ساعة Pixel Watch 3 أو إصدار أحدث متصل بجهازك، يمكنك استخدام المقاييس الحيوية أو رقم التعريف الشخصي&lt;/li&gt;&lt;li&gt;إذا لم تكن لديك ساعة Pixel Watch متصلة بجهازك، سيُطلب منك استخدام ميزة \"فتح الجهاز ببصمة الإصبع\" أو \"فتح الجهاز ببصمة الوجه\"&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

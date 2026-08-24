@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">ນອກສະຖານທີ່ທີ່ເຊື່ອຖືໄດ້ ເຊັ່ນ: ເຮືອນຂອງທ່ານ:&lt;ul&gt;&lt;li&gt;ຫາກທ່ານມີ Pixel Watch 3 ຂຶ້ນໄປທີ່ເຊື່ອມຕໍ່ຢູ່, ທ່ານສາມາດໃຊ້ລະບົບຊີວະມິຕິ ຫຼື PIN ຂອງທ່ານໄດ້&lt;/li&gt;&lt;li&gt;ຫາກທ່ານບໍ່ມີ Pixel Watch ທີ່ເຊື່ອມຕໍ່ຢູ່, ທ່ານຈະຕ້ອງໃຊ້ລາຍນິ້ວມື ຫຼື ການປົດລັອກດ້ວຍໜ້າ&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

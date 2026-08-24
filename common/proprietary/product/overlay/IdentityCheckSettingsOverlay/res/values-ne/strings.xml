@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">तपाईं घर जस्ता विश्वसनीय ठाउँभन्दा बाहिर भएका बेला:&lt;ul&gt;&lt;li&gt;तपाईंले Pixel Watch 3 वा सोभन्दा पछिल्लो संस्करण कनेक्ट गर्नुभएको छ भने तपाईं बायोमेट्रिक्स वा आफ्नो PIN प्रयोग गर्न सक्नुहुन्छ&lt;/li&gt;&lt;li&gt;तपाईंले Pixel Watch कनेक्ट गर्नुभएको छैन भने तपाईंले फिंगरप्रिन्ट वा फेस अनलक प्रयोग गर्नु पर्ने हुन्छ&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

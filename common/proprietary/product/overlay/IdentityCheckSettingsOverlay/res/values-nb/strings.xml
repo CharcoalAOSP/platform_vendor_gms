@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Utenfor pålitelige steder som hjemmet ditt:&lt;ul&gt;&lt;li&gt;Hvis du har en tilkoblet Pixel Watch 3 eller nyere, kan du bruke enten biometri eller PIN-koden.&lt;/li&gt;&lt;li&gt;Hvis du ikke har noen tilkoblet Pixel Watch, må du bruke opplåsing med fingeravtrykk eller ansiktslås.&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

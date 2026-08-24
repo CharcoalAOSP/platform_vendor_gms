@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Sa labas ng mga pinagkakatiwalaang lugar gaya ng iyong bahay:&lt;ul&gt;&lt;li&gt;Kung may nakakonekta kang Pixel Watch 3 o mas bago, puwede mong gamitin ang biometrics o ang iyong PIN&lt;/li&gt;&lt;li&gt;Kung wala kang nakakonektang Pixel Watch, kakailanganin mong gamitin ang Pag-unlock Gamit ang Fingerprint o Mukha&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

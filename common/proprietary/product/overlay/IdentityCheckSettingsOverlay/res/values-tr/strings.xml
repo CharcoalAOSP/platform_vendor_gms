@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Eviniz gibi güvenilir yerlerin dışındayken:&lt;ul&gt;&lt;li&gt;Bağlı bir Pixel Watch 3 veya sonraki model kol saatiniz varsa biyometri veya PIN\'inizi kullanabilirsiniz.&lt;/li&gt;&lt;li&gt;Bağlı bir Pixel Watch\'unuz yoksa parmak izi veya Yüz Tanıma Kilidi\'ni kullanmanız gerekir.&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

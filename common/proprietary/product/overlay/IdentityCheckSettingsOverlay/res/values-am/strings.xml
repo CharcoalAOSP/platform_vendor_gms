@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">እንደ ቤትዎ ካሉ የታመኑ ቦታዎች ውጭ፦&lt;ul&gt;&lt;li&gt;የተገናኘ Pixel Watch 3 ወይም ከዚያ በላይ ካለዎት ባዮሜትሪክስ ወይም ፒንዎን መጠቀም ይችላሉ&lt;/li&gt;&lt;li&gt;የተገናኘ Pixel Watch ከሌለዎት የጣት አሻራ ወይም በመልክ መክፈት እንዲጠቀሙ ይጠየቃሉ&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

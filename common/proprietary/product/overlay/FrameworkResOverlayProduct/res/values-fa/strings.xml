@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>انگشتتان را جابه‌جا کنید. دوباره امتحان کنید.</item>
+        <item>این انگشت قبلاً ثبت شده است؛ از انگشت دیگری استفاده کنید.</item>
+        <item>کیفیت تصویر پایین است. دوباره امتحان کنید.</item>
+        <item/>
+        <item>کیفیت تصویر پایین است. دوباره امتحان کنید.</item>
+        <item/>
+        <item/>
+        <item>لکه تشخیص داده شد؛ صفحه‌نمایش را تمیز کنید. دوباره امتحان کنید.</item>
+        <item>تصویر خوانده نشد. دوباره امتحان کنید.</item>
+        <item/>
+    </string-array>
+
+    <!-- Generic error message shown when fingerprint needs calibration [CHAR LIMIT=150] -->
+    <string name="fingerprint_error_bad_calibration">‏امکان استفاده از حسگر اثر انگشت وجود ندارد. به یکی از ارائه‌دهندگان خدمات تعمیر یا g.co/pixel/fingerprintunlock مراجعه کنید</string>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>داده‌ها مشکل دارند. دوباره امتحان کنید.</item>
+        <item>انگشت ثبت نشد. دوباره امتحان کنید.</item>
+    </string-array>
+
+    <!-- Notification content shown when the system requires the user to re-calibrate their fingerprint. [CHAR LIMIT=NONE] -->
+    <string name="fingerprint_recalibrate_notification_content">‏به یکی از ارائه‌دهندگان خدمات تعمیر یا g.co/pixel/fingerprintunlock مراجعه کنید</string>
+
+    <!-- [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 5444908404021316250] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">‏برای افزایش عمر باتری، «بهینه‌سازی باتری»:\n\n• «طرح زمینه تیره» را روشن می‌کند\n• فعالیت پس‌زمینه، برخی جلوه‌های بصری، و دیگر ویژگی‌ها مثل «Ok Google» را خاموش یا محدود می‌کند\n• اتصالات شبکه را بهینه‌سازی می‌کند\n\n<annotation id="url">بیشتر بدانید</annotation></string>
+</resources>

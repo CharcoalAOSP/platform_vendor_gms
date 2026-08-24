@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Außerhalb vertrauenswürdiger Orte wie deinem Zuhause:&lt;ul&gt;&lt;li&gt;Wenn du eine verbundene Pixel Watch 3 oder höher hast, kannst du entweder biometrische Daten oder deine PIN verwenden&lt;/li&gt;&lt;li&gt;Wenn du keine verbundene Pixel Watch hast, musst du die Entsperrung per Fingerabdruck oder Gesichtserkennung verwenden&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

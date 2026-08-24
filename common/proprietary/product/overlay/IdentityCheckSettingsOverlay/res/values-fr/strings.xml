@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">En dehors des lieux vérifiés comme votre domicile :&lt;ul&gt;&lt;li&gt;Si vous avez une Pixel Watch 3 ou une montre connectée plus récente, vous pouvez utiliser les données biométriques ou votre code.&lt;/li&gt;&lt;li&gt;Si vous n\'avez pas de Pixel Watch connectée, vous devrez utiliser le déverrouillage par empreinte digitale ou par reconnaissance faciale.&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

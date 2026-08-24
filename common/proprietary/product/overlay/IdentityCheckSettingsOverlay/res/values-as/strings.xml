@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">আপোনাৰ ঘৰৰ দৰে বিশ্বাসযোগ্য স্থানসমূহৰ বাহিৰে অন্য ঠাইত:&lt;ul&gt;&lt;li&gt;যদি আপোনাৰ ওচৰত সংযুক্ত Pixel Watch 3 অথবা তাৰ পাছৰ সংস্কৰণটো থাকে, আপুনি বায়’মেট্ৰিক অথবা আপোনাৰ পিন ব্যৱহাৰ কৰিব পাৰে&lt;/li&gt;&lt;li&gt;যদি আপোনাৰ ওচৰত কোনো সংযুক্ত Pixel Watch নাই, আপুনি ফিংগাৰপ্ৰিণ্ট বা ফে’চ আনলক ব্যৱহাৰ কৰিব লাগিব।&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

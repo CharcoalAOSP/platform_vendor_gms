@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Pajudinkite pirštą. Bandykite dar kartą.</item>
+        <item>Pirštas jau užregistruotas, atlikite tai kitu pirštu.</item>
+        <item>Prasta vaizdo kokybė. Bandykite dar kartą.</item>
+        <item/>
+        <item>Prasta vaizdo kokybė. Bandykite dar kartą.</item>
+        <item/>
+        <item/>
+        <item>Aptikta dėmių, nuvalykite ekraną. Bandykite dar kartą.</item>
+        <item>Nepavyko nuskaityti vaizdo. Bandykite dar kartą.</item>
+        <item/>
+    </string-array>
+
+    <!-- Generic error message shown when fingerprint needs calibration [CHAR LIMIT=150] -->
+    <string name="fingerprint_error_bad_calibration">Negalima naudoti kontrolinio kodo jutiklio. Apsilankykite pas taisymo paslaugų teikėją arba adresu g.co/pixel/fingerprintunlock.</string>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>Netinkami duomenys. Bandykite dar kartą.</item>
+        <item>Nepavyko užregistruoti piršto. Bandykite dar kartą.</item>
+    </string-array>
+
+    <!-- Notification content shown when the system requires the user to re-calibrate their fingerprint. [CHAR LIMIT=NONE] -->
+    <string name="fingerprint_recalibrate_notification_content">Apsilankykite pas taisymo paslaugų teikėją arba adresu g.co/pixel/fingerprintunlock.</string>
+
+    <!-- [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 5444908404021316250] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">Kad akumuliatorius veiktų ilgiau, Akumuliatoriaus tausojimo priemonė:\n\n• įjungia tamsiąją temą;\n• išjungia arba apriboja veiklą fone, kai kuriuos vaizdinius efektus ir kitas funkcijas, pvz., „Ok Google“;\n• optimizuoja tinklo ryšius.\n\n<annotation id="url">Sužinokite daugiau</annotation></string>
+</resources>

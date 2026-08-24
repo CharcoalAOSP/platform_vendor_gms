@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Танай гэр зэрэг итгэмжлэгдсэн газраас гадуур:&lt;ul&gt;&lt;li&gt;Хэрэв танд холбогдсон Pixel Watch 3 эсвэл түүнээс хойших загвар байгаа бол та биометр эсвэл ПИН-ийнхээ аль нэгийг ашиглаж болно&lt;/li&gt;&lt;li&gt;Хэрэв танд холбогдсон Pixel Watch байхгүй бол танаас Хурууны хээ, Царайгаар түгжээ тайлах онцлогийг ашиглахыг шаардана&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

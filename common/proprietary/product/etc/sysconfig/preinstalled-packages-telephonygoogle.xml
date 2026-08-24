@@ -1,0 +1,6 @@
+<config>
+    <!-- TelephonyGoogle (TelephonyGoogle) -->
+    <install-in-user-type package="com.google.android.telephony">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+</config>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_acquired_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>เลื่อนนิ้ว ลองอีกครั้ง</item>
+        <item>ลงทะเบียนนิ้วนี้แล้ว โปรดใช้นิ้วอื่น</item>
+        <item>คุณภาพของรูปต่ำ ลองอีกครั้ง</item>
+        <item/>
+        <item>คุณภาพของรูปต่ำ ลองอีกครั้ง</item>
+        <item/>
+        <item/>
+        <item>ตรวจพบรอยเปื้อน โปรดทำความสะอาดหน้าจอ ลองอีกครั้ง</item>
+        <item>อ่านรูปภาพไม่สำเร็จ ลองอีกครั้ง</item>
+        <item/>
+    </string-array>
+
+    <!-- Generic error message shown when fingerprint needs calibration [CHAR LIMIT=150] -->
+    <string name="fingerprint_error_bad_calibration">ใช้เซ็นเซอร์ลายนิ้วมือไม่ได้ โปรดติดต่อผู้ให้บริการซ่อมหรือไปที่ g.co/pixel/fingerprintunlock</string>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="fingerprint_error_vendor">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>ข้อมูลไม่ถูกต้อง ลองอีกครั้ง</item>
+        <item>ลงทะเบียนนิ้วไม่สำเร็จ ลองอีกครั้ง</item>
+    </string-array>
+
+    <!-- Notification content shown when the system requires the user to re-calibrate their fingerprint. [CHAR LIMIT=NONE] -->
+    <string name="fingerprint_recalibrate_notification_content">โปรดติดต่อผู้ให้บริการซ่อมหรือไปที่ g.co/pixel/fingerprintunlock</string>
+
+    <!-- [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 5444908404021316250] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">โหมดประหยัดแบตเตอรี่จะดำเนินการดังต่อไปนี้เพื่อยืดอายุการใช้งานแบตเตอรี่\n\n• เปิดธีมมืด\n• ปิดหรือจำกัดกิจกรรมในเบื้องหลัง เอฟเฟกต์ภาพบางอย่าง และฟีเจอร์อื่นๆ อย่างเช่น \"Ok Google\"\n• เพิ่มประสิทธิภาพการเชื่อมต่อเครือข่าย\n\n<annotation id="url">ดูข้อมูลเพิ่มเติม</annotation></string>
+</resources>

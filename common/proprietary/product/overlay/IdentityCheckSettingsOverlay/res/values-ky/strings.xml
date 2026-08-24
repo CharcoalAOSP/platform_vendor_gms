@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Үйүңүз сыяктуу ишенимдүү жерлерден башка жерлерде:&lt;ul&gt;&lt;li&gt;Эгер сизде туташкан Pixel Watch 3 же андан кийинки версиясы болсо, биометриканы же PIN кодду колдонсоңуз болот&lt;/li&gt;&lt;li&gt;Эгер сизде туташкан Pixel Watch сааты болбосо, Манжа изи же Жүзүнөн таанып ачуу функциясын колдонууңуз талап кылынат&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>

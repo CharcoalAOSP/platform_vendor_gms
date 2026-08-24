@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="identity_check_setup_watch_description">Fora dels llocs de confiança, com ara casa teva:&lt;ul&gt;&lt;li&gt;Si tens un Pixel Watch 3 o un model posterior connectats, pots utilitzar dades biomètriques o el PIN.&lt;/li&gt;&lt;li&gt;Si no tens un Pixel Watch connectat, hauràs d\'utilitzar Desbloqueig amb empremta digital o Desbloqueig facial.&lt;/li&gt;&lt;/ul&gt;</string>
+</resources>
