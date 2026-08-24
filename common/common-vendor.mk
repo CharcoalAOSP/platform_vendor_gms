@@ -68,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/sysconfig/preinstalled-packages-telephonygoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-telephonygoogle.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/preinstalled_packages_pixel_experience_2017_and_newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled_packages_pixel_experience_2017_and_newer.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/preinstalled_packages_pixel_experience_2021_and_newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled_packages_pixel_experience_2021_and_newer.xml \
+    vendor/gms/common/proprietary/product/etc/sysconfig/preinstalled_packages_repair_mode.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled_packages_repair_mode.xml.xml \
     vendor/gms/common/proprietary/product/tts/google/de-de/de-de-x-multi-r60.zvoice:$(TARGET_COPY_OUT_PRODUCT)/tts/google/de-de/de-de-x-multi-r60.zvoice \
     vendor/gms/common/proprietary/product/tts/google/es-es/es-es-x-multi-r59.zvoice:$(TARGET_COPY_OUT_PRODUCT)/tts/google/es-es/es-es-x-multi-r59.zvoice \
     vendor/gms/common/proprietary/product/tts/google/fr-fr/fr-fr-x-multi-r60.zvoice:$(TARGET_COPY_OUT_PRODUCT)/tts/google/fr-fr/fr-fr-x-multi-r60.zvoice \
@@ -146,6 +147,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/system/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml \
     vendor/gms/common/proprietary/system/etc/sysconfig/preinstalled-packages-generic-system-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/preinstalled-packages-generic-system-google.xml \
     vendor/gms/common/proprietary/system_ext/etc/default-permissions/default-permissions-com.google.android.apps.pixel.dcservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/default-permissions-com.google.android.apps.pixel.dcservice.xml \
+    vendor/gms/common/proprietary/system_ext/etc/init/init.repair_mode.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.repair_mode.rc \
     vendor/gms/common/proprietary/system_ext/etc/permissions/com.google.android.apps.pixel.dcservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.android.apps.pixel.dcservice.xml \
     vendor/gms/common/proprietary/system_ext/etc/permissions/privapp-permissions-google-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se.xml \
     vendor/gms/common/proprietary/system_ext/etc/sysconfig/preinstalled-packages-exo.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/preinstalled-packages-exo.xml \
@@ -245,6 +247,7 @@ PRODUCT_PACKAGES += \
     AccessibilityMenu \
     EmergencyInfoGoogleNoUi \
     Flipendo \
+    RepairMode \
     AvatarPickerGoogle \
     DeviceConnectivityServicePrebuilt_26.01.00 \
     GoogleServicesFramework \

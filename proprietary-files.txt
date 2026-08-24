@@ -278,6 +278,11 @@ system/etc/default-permissions/default-permissions_googleprintrecommendationserv
 # Pulse
 product/priv-app/PulsePrebuilt/PulsePrebuilt.apk;PRESIGNED
 
+# Repair Mode
+system_ext/app/RepairMode/RepairMode.apk
+system_ext/etc/init/init.repair_mode.rc
+product/etc/sysconfig/preinstalled_packages_repair_mode.xml
+
 # SafetyHub
 product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk;PRESIGNED
 system_ext/app/EmergencyInfoGoogleNoUi/EmergencyInfoGoogleNoUi.apk;OVERRIDES=EmergencyInfo
